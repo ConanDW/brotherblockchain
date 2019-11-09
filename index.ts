@@ -23,9 +23,9 @@ const SHA256 = require("./node_modules/crypto-js/sha256")
 class Block {
 	public previousHash: any;
 	public timestamp: any;
-	public information: any;
+	public information: string;
 	public hash: any;
-	public nonce: any;
+	public nonce: number;
 
     constructor(previousHash = '') {
         this.previousHash = previousHash
