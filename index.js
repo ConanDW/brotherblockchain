@@ -1,10 +1,10 @@
 //This project was based on the work of Xavier Decuyper https://www.codementor.io/savjee
-//This project "Graduation Blockchain" was forked on 9/16/19 
+//This project "Brother Blockchain" was forked on 9/16/19 
 //This blockchain will run from 11/11/2019 until 2025 after my brother graduates high school.
 //This blockchain gets progressivly harder to mine as it increases one value.
 //The blockchain will then seise to run by increases difficulty to the point where it can no longer...
 //mine blocks due to the infeasibility of the difficulty.
-//Graduation Blockchain
+//Brother Blockchain
 //Copyright (c) <2019> <Cameron Day>
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
