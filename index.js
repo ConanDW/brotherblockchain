@@ -1,8 +1,10 @@
 //This project was based on the work of Xavier Decuyper https://www.codementor.io/savjee
-//This project "CD Blockchain" was forked on 9/16/19 
-//Some important improvements include automated timestamp generation, a version in TypeScript, and the ability for..
-//..difficulty of the mine to increase over time (in development).
-//CD Blockchain is licensed under the MIT License
+//This project "Graduation Blockchain" was forked on 9/16/19 
+//This blockchain will run from 11/11/2019 until 2025 after my brother graduates high school.
+//This blockchain gets progressivly harder to mine as it increases one value.
+//The blockchain will then seise to run by increases difficulty to the point where it can no longer...
+//mine blocks due to the infeasibility of the difficulty.
+//Graduation Blockchain
 //Copyright (c) <2019> <Cameron Day>
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
@@ -43,7 +45,25 @@ class Block {
 class Blockchain {
     constructor() {
         this.chain = [this.generateGenesisBlock()]
-        this.difficulty = 6
+        this.difficulty = 2
+        var year = new Date()
+        this.diffDate = year.getFullYear()
+        console.log(this.diffDate)
+        if (this.diffDate === 2019) {
+            this.difficulty = 5
+        } else if (this.diffDate === 2020) {
+            this.difficulty = 6 
+        } else if (this.diffDate === 2021) {
+            this.difficulty = 7
+        } else if (this.diffDate === 2022) {
+            this.difficulty = 8
+        } else if (this.difficulty = 2023) {
+            this.difficulty = 9
+        } else if (this.difficulty = 2024) {
+            this.difficulty = 10
+        } else if (this.difficulty = 2025) {
+            this.difficulty = 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+        } 
     }
     generateGenesisBlock() {
         return new Block("","Genesis", "0" )
@@ -73,8 +93,8 @@ class Blockchain {
         return true; //if chain is valid proceed.
     }
 }
-const startCoin  = new Blockchain();
+const startBlockchain  = new Blockchain();
 while (true) {
     console.log('Mining block...');
-    startCoin.addBlock(new Block("", "New Block", {}))
+    startBlockchain.addBlock(new Block("", "New Block", {}))
 }
