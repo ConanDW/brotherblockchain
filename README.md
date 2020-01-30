@@ -8,6 +8,7 @@ This project was developed from early October 2019 until 11/11/19 in my spare ti
 ### Where can we learn more?
 We have a small website at:
 https://brotherblockchaincd.firebaseapp.com 
+
 If you would like to help a donation in BTC would be much appreciated. This would help me keep this project running. 
 33WCwXaaYe3t5qdsX2z7aEokQ41jpfhCpY
 #### Credits go to Xavier Decuyper for a base for me to build this off of.
