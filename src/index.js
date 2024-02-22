@@ -5,7 +5,7 @@
 //The blockchain will then seise to run by increases difficulty to the point where it can no longer...
 //mine blocks due to the infeasibility of the difficulty.
 //Brother Blockchain
-//Copyright (c) <2019> <Cameron Day>
+//Copyright (c) <2024> <Cameron Day>
 //Permission is hereby granted, free of charge, to any person obtaining a copy
 //of this software and associated documentation files (the "Software"), to deal
 //in the Software without restriction, including without limitation the rights
